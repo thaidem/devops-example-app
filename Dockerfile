@@ -11,5 +11,5 @@ RUN npm ci
 
 COPY . .
 
-#CMD ["bin/start.sh"]
-CMD ["npm", "start"]
+CMD ["bin/start.sh"]
+#CMD ["npm", "start"]
