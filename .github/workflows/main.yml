@@ -4,8 +4,14 @@ on:
   push:
     branches:
       - 'main'
+  release:
+    branches:
+      - 'main'
+
+
 
 env:
+
   TEST_TAG: dementy/devops-example-app:test
 
 jobs:
